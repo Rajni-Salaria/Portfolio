@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>portfolio</title>
+  <link rel="stylesheet" href="p.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+</head>
+
+<body>
+  <header>
+    <div class="hamburger" onclick="myfunction()">
+      <span class="bar"> </span>
+      <span class="bar"> </span>
+      <span class="bar"> </span>
+    </div>
+    <div class="dropdown" id="Drop" style="display:none">
+      <a href="#" target="_blank">Home</a>
+      <a href="#" target="_blank">Linkedin</a>
+      <a href="#" target="_blank">About</a>
+      <a href="#" target="_blank">Resume Download</a>
+    </div>
+    <nav class="navigation">
+      <a href="#" target="_blank">Home</a>
+      <a href="#" target="_blank">Linkedin</a>
+      <a href="#" target="_blank">About</a>
+      <button class="button">
+        <a href="#" target="_blank">Resume Download</a>
+      </button>
+    </nav>
+  </header> `
+          <div class="container">
+              <div class="header-content">
+                 <div class="content-left">
+                      <h1>Hello!!!</h1>
+                      <h2>I'm Rashi Salaria</h2>
+                      <h3>Aspiring Front-End Developer</h3>
+                      <P> I'm from Himachal Pradesh. I am currently studying from Front-end developement at Sajhe Sapne.
+                        I have completed my graduation last year in B.Sc. from D/shala college.
+                      </P>
+                      <button class="project"><a href="#"> My Project</a></button>
+                 </div>
+                     <div class="content-right">
+                          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3iliiF8t64zhWjYTRzNTKh2osbsuEZ78oPw&usqp=CAU"
+                            alt="image">
+                     </div>       
+              </div>        
+          </div>
+
+                 <div>
+                      <footer class="icon">
+                        <hr>
+                        <h4> Contact  me :</h4>
+                        <i class="fa-brands fa-facebook-square"> </i>
+                        <i class="fa-brands fa-instagram-square"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                      </footer>
+                  </div>             
+  <script>
+    function myfunction() {
+      var x = document.getElementById('Drop');
+      if (x.style.display == 'flex') {
+        x.style.display = 'none';
+      } else {
+        x.style.display = 'flex'
+      }
+
+    }
+  </script>
+</body>
+
+</html>
